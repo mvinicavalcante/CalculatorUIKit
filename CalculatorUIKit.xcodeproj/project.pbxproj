@@ -72,7 +72,6 @@
 				5093ACA62B11785E004A9E70 /* SceneDelegate.swift */,
 				5093ACAD2B117861004A9E70 /* Assets.xcassets */,
 				5093ACAF2B117861004A9E70 /* LaunchScreen.storyboard */,
-				5093ACAA2B11785E004A9E70 /* Main.storyboard */,
 				5093ACB22B117861004A9E70 /* Info.plist */,
 				506081DC2B181F4900B3BDF3 /* StarterProject */,
 				5093ACBA2B13EB6A004A9E70 /* CompletedProject */,
@@ -83,6 +82,7 @@
 		5093ACBA2B13EB6A004A9E70 /* CompletedProject */ = {
 			isa = PBXGroup;
 			children = (
+				5093ACAA2B11785E004A9E70 /* Main.storyboard */,
 				5093ACA82B11785E004A9E70 /* ViewController.swift */,
 				5093ACB82B12A659004A9E70 /* OperationButton.swift */,
 			);
