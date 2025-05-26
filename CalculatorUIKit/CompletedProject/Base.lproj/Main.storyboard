@@ -392,7 +392,7 @@
                                     <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="PP1-P2-30n">
                                         <rect key="frame" x="0.0" y="96.333333333333371" width="363" height="84"/>
                                         <subviews>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5uy-nb-ZUc">
+                                            <button opaque="NO" tag="7" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5uy-nb-ZUc">
                                                 <rect key="frame" x="0.0" y="0.0" width="83.333333333333329" height="84"/>
                                                 <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <state key="normal" title="Button"/>
@@ -403,7 +403,7 @@
                                                     <action selector="didTapNumberButton:" destination="yao-Ob-Nnr" eventType="touchUpInside" id="Akm-w6-tyG"/>
                                                 </connections>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PgB-oV-0Cp">
+                                            <button opaque="NO" tag="8" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PgB-oV-0Cp">
                                                 <rect key="frame" x="93.333333333333343" y="0.0" width="83.333333333333343" height="84"/>
                                                 <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <state key="normal" title="Button"/>
@@ -414,7 +414,7 @@
                                                     <action selector="didTapNumberButton:" destination="yao-Ob-Nnr" eventType="touchUpInside" id="qxX-SE-gyH"/>
                                                 </connections>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="d1m-zH-z6h">
+                                            <button opaque="NO" tag="9" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="d1m-zH-z6h">
                                                 <rect key="frame" x="186.66666666666666" y="0.0" width="82.999999999999972" height="84"/>
                                                 <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <state key="normal" title="Button"/>
@@ -443,7 +443,7 @@
                                     <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="E89-EG-CXS">
                                         <rect key="frame" x="0.0" y="192.33333333333337" width="363" height="84"/>
                                         <subviews>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CQx-c1-JGC">
+                                            <button opaque="NO" tag="4" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CQx-c1-JGC">
                                                 <rect key="frame" x="0.0" y="0.0" width="83.333333333333329" height="84"/>
                                                 <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <state key="normal" title="Button"/>
@@ -454,7 +454,7 @@
                                                     <action selector="didTapNumberButton:" destination="yao-Ob-Nnr" eventType="touchUpInside" id="2C3-F4-pcp"/>
                                                 </connections>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="g6K-Qb-I26">
+                                            <button opaque="NO" tag="5" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="g6K-Qb-I26">
                                                 <rect key="frame" x="93.333333333333343" y="0.0" width="83.333333333333343" height="84"/>
                                                 <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <state key="normal" title="Button"/>
@@ -465,7 +465,7 @@
                                                     <action selector="didTapNumberButton:" destination="yao-Ob-Nnr" eventType="touchUpInside" id="9Mq-AP-j2e"/>
                                                 </connections>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SXp-jS-lJY">
+                                            <button opaque="NO" tag="6" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SXp-jS-lJY">
                                                 <rect key="frame" x="186.66666666666666" y="0.0" width="82.999999999999972" height="84"/>
                                                 <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <state key="normal" title="Button"/>
@@ -494,7 +494,7 @@
                                     <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="uv1-KJ-qgi">
                                         <rect key="frame" x="0.0" y="288.33333333333331" width="363" height="84.333333333333314"/>
                                         <subviews>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OXE-Ty-vfH">
+                                            <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OXE-Ty-vfH">
                                                 <rect key="frame" x="0.0" y="0.0" width="83.333333333333329" height="84.333333333333329"/>
                                                 <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <state key="normal" title="Button"/>
@@ -505,7 +505,7 @@
                                                     <action selector="didTapNumberButton:" destination="yao-Ob-Nnr" eventType="touchUpInside" id="WWW-OL-Ooj"/>
                                                 </connections>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5yk-N3-fVP">
+                                            <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5yk-N3-fVP">
                                                 <rect key="frame" x="93.333333333333343" y="0.0" width="83.333333333333343" height="84.333333333333329"/>
                                                 <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <state key="normal" title="Button"/>
@@ -516,7 +516,7 @@
                                                     <action selector="didTapNumberButton:" destination="yao-Ob-Nnr" eventType="touchUpInside" id="dTk-os-gpv"/>
                                                 </connections>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8nW-LU-OGo">
+                                            <button opaque="NO" tag="3" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8nW-LU-OGo">
                                                 <rect key="frame" x="186.66666666666666" y="0.0" width="82.999999999999972" height="84.333333333333329"/>
                                                 <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <state key="normal" title="Button"/>
@@ -610,6 +610,7 @@
                         </constraints>
                     </view>
                     <connections>
+                        <outlet property="displayLabel" destination="qbC-2B-JnZ" id="cqA-a4-l0J"/>
                         <outlet property="divideButton" destination="OAE-iu-tAq" id="p14-Hx-DeT"/>
                         <outlet property="minusButton" destination="NAj-lZ-yMx" id="oP2-Bt-oTN"/>
                         <outlet property="multiplyButton" destination="3t6-h6-OQ9" id="5ZQ-dq-ST3"/>
@@ -628,6 +629,7 @@
                         <outletCollection property="roundButtons" destination="8nW-LU-OGo" collectionClass="NSMutableArray" id="Gpc-Bk-wfY"/>
                         <outletCollection property="roundButtons" destination="7qb-I0-7Vr" collectionClass="NSMutableArray" id="MX0-Yn-Opv"/>
                         <outletCollection property="roundButtons" destination="HoI-X8-US4" collectionClass="NSMutableArray" id="fV6-hy-HLF"/>
+                        <outletCollection property="roundButtons" destination="asl-5p-ML3" collectionClass="NSMutableArray" id="eJQ-wV-stv"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="SQc-Jo-ZPg" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>

@@ -1,6 +1,7 @@
 import UIKit
 
 class CalculatorViewController: UIViewController {
+    @IBOutlet weak var displayLabel: UILabel!
     
     @IBOutlet var roundButtons: [UIButton]!
     
@@ -17,6 +18,7 @@ class CalculatorViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        displayLabel.text = "0"
         setupButtons()
     }
     
@@ -36,6 +38,13 @@ class CalculatorViewController: UIViewController {
     }
     
     @IBAction func didTapNumberButton(_ sender: UIButton) {
+        let number = String(sender.tag)
+        displayLabel.text =
+            displayLabel.text == "0" ?
+            number
+            :
+            displayLabel.text! + number
+
     }
     
     @IBAction func didTapDecimalButton() {
