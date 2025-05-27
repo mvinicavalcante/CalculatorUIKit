@@ -5,16 +5,26 @@ class CalculatorViewController: UIViewController {
     
     @IBOutlet var roundButtons: [UIButton]!
     
-    @IBOutlet weak var divideButton: UIButton!
-    @IBOutlet weak var multiplyButton: UIButton!
-    @IBOutlet weak var minusButton: UIButton!
-    @IBOutlet weak var plusButton: UIButton!
-    lazy var operationButtons: [UIButton] = [
+    @IBOutlet weak var divideButton: OperatorButton!
+    @IBOutlet weak var multiplyButton: OperatorButton!
+    @IBOutlet weak var minusButton: OperatorButton!
+    @IBOutlet weak var plusButton: OperatorButton!
+    lazy var operationButtons: [OperatorButton] = [
         divideButton,
         multiplyButton,
         minusButton,
         plusButton
     ]
+    
+    enum Operation{
+        case divide
+        case multiply
+        case subtract
+        case add
+        case none
+    }
+    
+    var operation: Operation = .none
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -34,7 +44,37 @@ class CalculatorViewController: UIViewController {
         }
     }
 
-    @IBAction func didTapOperationButton(_ sender: UIButton) {
+    @IBAction func didTapOperationButton(_ sender: OperatorButton) {
+        let title = sender.currentTitle
+        
+        switch title {
+        case "÷":
+            operation = .divide
+        case "X":
+            operation = .multiply
+        case "-":
+            operation = .subtract
+        case "+":
+            operation = .add
+        default:
+            break
+        }
+        highlightButton(sender)
+    }
+    
+    func deselectButtons() {
+        for button in operationButtons {
+            button.backgroundColor = .systemOrange
+            button.setTitleColor(.white, for: .normal)
+            button.isSelection = false
+        }
+    }
+    
+    func highlightButton(_ button: OperatorButton) {
+        deselectButtons()
+        button.backgroundColor = .white
+        button.setTitleColor(.systemOrange, for: .normal)
+        button.isSelection = true
     }
     
     @IBAction func didTapNumberButton(_ sender: UIButton) {

@@ -381,10 +381,7 @@
                                                     <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </buttonConfiguration>
                                                 <connections>
-                                                    <action selector="didTapOperationButton2:" destination="yao-Ob-Nnr" eventType="touchUpInside" id="Xd0-cI-LyB"/>
-                                                    <action selector="didTapOperationButton3:" destination="yao-Ob-Nnr" eventType="touchUpInside" id="Hxw-Ss-3Aq"/>
-                                                    <action selector="didTapOperationButton:" destination="yao-Ob-Nnr" eventType="touchUpInside" id="9rC-mx-DH3"/>
-                                                    <action selector="didiTapOperationButton:" destination="yao-Ob-Nnr" eventType="touchUpInside" id="Ple-9D-lbV"/>
+                                                    <action selector="didTapOperationButton:" destination="yao-Ob-Nnr" eventType="touchUpInside" id="dHe-QN-fQo"/>
                                                 </connections>
                                             </button>
                                         </subviews>
@@ -434,8 +431,7 @@
                                                     <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </buttonConfiguration>
                                                 <connections>
-                                                    <action selector="didTapOperationButton3:" destination="yao-Ob-Nnr" eventType="touchUpInside" id="Ywb-P3-DvQ"/>
-                                                    <action selector="didTapOperationButton:" destination="yao-Ob-Nnr" eventType="touchUpInside" id="QXl-au-kAy"/>
+                                                    <action selector="didTapOperationButton:" destination="yao-Ob-Nnr" eventType="touchUpInside" id="9pT-5a-Gpg"/>
                                                 </connections>
                                             </button>
                                         </subviews>
@@ -485,8 +481,7 @@
                                                     <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </buttonConfiguration>
                                                 <connections>
-                                                    <action selector="didTapOperationButton3:" destination="yao-Ob-Nnr" eventType="touchUpInside" id="3Ka-8i-Dk6"/>
-                                                    <action selector="didTapOperationButton:" destination="yao-Ob-Nnr" eventType="touchUpInside" id="NZd-jL-dtD"/>
+                                                    <action selector="didTapOperationButton:" destination="yao-Ob-Nnr" eventType="touchUpInside" id="3Kj-EP-tN5"/>
                                                 </connections>
                                             </button>
                                         </subviews>
@@ -536,8 +531,7 @@
                                                     <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </buttonConfiguration>
                                                 <connections>
-                                                    <action selector="didTapOperationButton3:" destination="yao-Ob-Nnr" eventType="touchUpInside" id="WRH-Nm-66M"/>
-                                                    <action selector="didTapOperationButton:" destination="yao-Ob-Nnr" eventType="touchUpInside" id="psf-j6-aob"/>
+                                                    <action selector="didTapOperationButton:" destination="yao-Ob-Nnr" eventType="touchUpInside" id="CKQ-w2-RPz"/>
                                                 </connections>
                                             </button>
                                         </subviews>
@@ -575,10 +569,6 @@
                                                 <buttonConfiguration key="configuration" style="plain" title="=">
                                                     <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </buttonConfiguration>
-                                                <connections>
-                                                    <action selector="didTapEqualsButton:" destination="yao-Ob-Nnr" eventType="touchUpInside" id="1B0-9l-CDk"/>
-                                                    <action selector="didTapOperationButton:" destination="yao-Ob-Nnr" eventType="touchUpInside" id="a6K-5x-zuA"/>
-                                                </connections>
                                             </button>
                                         </subviews>
                                         <constraints>
@@ -639,10 +629,10 @@
     </scenes>
     <resources>
         <systemColor name="systemGray2Color">
-            <color red="0.68235294120000001" green="0.68235294120000001" blue="0.69803921570000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <color red="0.68235294117647061" green="0.68235294117647061" blue="0.69803921568627447" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
         <systemColor name="systemOrangeColor">
-            <color red="1" green="0.58431372550000005" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <color red="1" green="0.58431372549019611" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
     </resources>
 </document>
