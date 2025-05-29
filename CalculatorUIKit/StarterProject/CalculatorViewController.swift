@@ -26,6 +26,15 @@ class CalculatorViewController: UIViewController {
     
     var operation: Operation = .none
     
+    var operationIsSelected: Bool {
+        for button in operationButtons {
+            if button.isSelection {
+                return true
+            }
+        }
+        return false
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         displayLabel.text = "0"
@@ -79,12 +88,16 @@ class CalculatorViewController: UIViewController {
     
     @IBAction func didTapNumberButton(_ sender: UIButton) {
         let number = String(sender.tag)
-        displayLabel.text =
+        
+        displayLabel.text = operationIsSelected
+        ? {
+            deselectButtons();
+            return number
+        }()
+        : (
             displayLabel.text == "0" ?
-            number
-            :
-            displayLabel.text! + number
-
+            number : displayLabel.text! + number
+        )
     }
     
     @IBAction func didTapDecimalButton() {

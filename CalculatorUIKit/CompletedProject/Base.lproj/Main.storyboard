@@ -373,7 +373,7 @@
                                                     <action selector="didTapPercentButton" destination="yao-Ob-Nnr" eventType="touchUpInside" id="bYe-9U-lPT"/>
                                                 </connections>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OAE-iu-tAq">
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OAE-iu-tAq" customClass="OperatorButton" customModule="CalculatorUIKit" customModuleProvider="target">
                                                 <rect key="frame" x="279.66666666666669" y="0.0" width="83.333333333333314" height="84.333333333333329"/>
                                                 <color key="backgroundColor" systemColor="systemOrangeColor"/>
                                                 <state key="normal" title="Button"/>
@@ -422,7 +422,7 @@
                                                     <action selector="didTapNumberButton:" destination="yao-Ob-Nnr" eventType="touchUpInside" id="tVi-Jb-g6z"/>
                                                 </connections>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3t6-h6-OQ9">
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3t6-h6-OQ9" customClass="OperatorButton" customModule="CalculatorUIKit" customModuleProvider="target">
                                                 <rect key="frame" x="279.66666666666669" y="0.0" width="83.333333333333314" height="84"/>
                                                 <color key="backgroundColor" systemColor="systemOrangeColor"/>
                                                 <color key="tintColor" systemColor="systemOrangeColor"/>
@@ -472,7 +472,7 @@
                                                     <action selector="didTapNumberButton:" destination="yao-Ob-Nnr" eventType="touchUpInside" id="f9S-ZT-q3J"/>
                                                 </connections>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NAj-lZ-yMx">
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NAj-lZ-yMx" customClass="OperatorButton" customModule="CalculatorUIKit" customModuleProvider="target">
                                                 <rect key="frame" x="279.66666666666669" y="0.0" width="83.333333333333314" height="84"/>
                                                 <color key="backgroundColor" systemColor="systemOrangeColor"/>
                                                 <color key="tintColor" systemColor="systemOrangeColor"/>
@@ -522,7 +522,7 @@
                                                     <action selector="didTapNumberButton:" destination="yao-Ob-Nnr" eventType="touchUpInside" id="yAe-r4-3fU"/>
                                                 </connections>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bBz-O0-a5r">
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bBz-O0-a5r" customClass="OperatorButton" customModule="CalculatorUIKit" customModuleProvider="target">
                                                 <rect key="frame" x="279.66666666666669" y="0.0" width="83.333333333333314" height="84.333333333333329"/>
                                                 <color key="backgroundColor" systemColor="systemOrangeColor"/>
                                                 <color key="tintColor" systemColor="systemOrangeColor"/>
