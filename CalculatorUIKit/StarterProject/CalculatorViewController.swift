@@ -35,6 +35,8 @@ class CalculatorViewController: UIViewController {
         return false
     }
     
+    var previousNumber: Double?
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         displayLabel.text = "0"
@@ -54,8 +56,9 @@ class CalculatorViewController: UIViewController {
     }
 
     @IBAction func didTapOperationButton(_ sender: OperatorButton) {
-        let title = sender.currentTitle
+        performOperation()
         
+        let title = sender.currentTitle
         switch title {
         case "÷":
             operation = .divide
@@ -103,8 +106,34 @@ class CalculatorViewController: UIViewController {
     @IBAction func didTapDecimalButton() {
     }
     
-    @IBAction func didTapEqualsButton(_ sender: UIButton) {
+    func performOperation(){
+        guard let previousNumber else { return }
+        let displayText = displayLabel.text!
+        guard let displayNumber = Double(displayText) else {
+            return
+        }
+        
+        var result: Double = 0
+        switch operation {
+        case .divide:
+            result = previousNumber / displayNumber
+        case .multiply:
+            result = previousNumber * displayNumber
+        case .subtract:
+            result = previousNumber - displayNumber
+        case .add:
+            result = previousNumber + displayNumber
+        case .none:
+            return
+        }
+        displayLabel.text = String(result)
+        self.previousNumber = result
     }
+    
+    @IBAction func didTapEqualsButton() {
+        performOperation()
+    }
+    
     
     @IBAction func didTapPercentButton() {
     }
